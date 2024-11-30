@@ -1,5 +1,5 @@
 // API URL to fetch cryptocurrency data
-// const apiURL = 'cryptos.json'; 
+// const apiURL = 'cryptos.json'; // You can replace with real API if necessary
 const apiURL = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false';
 
 
