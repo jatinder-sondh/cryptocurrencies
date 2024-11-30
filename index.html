@@ -12,6 +12,30 @@
         <p>Track and Compare your favorite cryptocurrencies</p>
     </header>
 
+    <!-- User Preferences Section -->
+    <div id="user-preferences">
+        <h2>User Preferences</h2>
+        <div class="preferences-grid">
+            <div class="preference-item">
+                <label for="sort-by">Sort by:</label>
+                <select id="sort-by">
+                    <option value="price">Price</option>
+                    <option value="name">Name</option>
+                    <option value="change">24h Change</option>
+                </select>
+            </div>
+
+            <div class="preference-item">
+                <label for="view-as">View as:</label>
+                <select id="view-as">
+                    <option value="grid">Grid View</option>
+                    <option value="list">List View</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cryptocurrency List Section -->
     <div id="crypto-list-section">
         <h2>Select Cryptocurrencies</h2>
         <ul id="crypto-list">
@@ -19,6 +43,7 @@
         </ul>
     </div>
 
+    <!-- Comparison Section -->
     <div id="comparison-section">
         <h2>Comparison Section</h2>
         <div id="comparison-container">
